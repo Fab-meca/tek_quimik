@@ -1,0 +1,143 @@
+body {
+    background-color: lemonchiffon;
+}
+  
+
+footer {
+    text-align: center;
+}
+
+#fixo {
+    text-align:justify;
+}
+
+.final {
+    position: sticky;
+    top: 0;
+    background-color: #556B2F;
+    color:lemonchiffon;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+    height: 150px; 
+}
+
+.top {
+    position: sticky;
+    top: 100px;
+    background-color: #556B2F;
+    color: lemonchiffon;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+    height: 100px; 
+}
+
+section {
+    border: 3px solid #6E2C00;
+    margin: 3px;
+    padding: 3px;
+    text-align: justify;
+}
+
+
+#resposta1 {
+    border: 3px solid green;
+    display: none;
+}
+#erro1 {
+    display: none;
+    color: red;
+}
+
+#pergunta2 {
+    display: none;
+}
+#erro2 {
+    display: none;
+    color: red;
+}
+#resposta2 {
+    border: 3px solid green;
+    display: none;
+}
+
+
+#pergunta3 {
+    display: none;
+}
+#erro3 {
+    display: none;
+    color: red;
+}
+#resposta3 {
+    border: 3px solid green;
+    display: none;
+}
+
+#parabens {
+    border: 5px solid green;
+    display: none;
+    text-align: center;
+}
+
+#imagem1 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #333;      
+    border-radius: 10px;         
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);  
+    height:auto;
+    width: auto;
+}
+
+#imagem2 {
+    display: block;
+    border: 2px solid #333;      
+    border-radius: 10px;         
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);  
+    height:auto;
+    width: auto;
+    margin:auto;
+    max-width: 245px;
+}
+
+
+
+
+#pabens {
+    display: block;
+    border: 2px solid #333;      
+    border-radius: 10px;         
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);  
+    height:auto;
+    width: auto;
+    margin:auto;
+    margin-bottom: 10px;
+    max-width: 245px;
+}
+
+#logoabaixo {
+    text-align: center;
+}
+
+
+
+.container {
+      display: flex;
+      justify-content: center;
+      gap: 10px; 
+      flex-wrap: wrap; 
+    }
+
+.container img {
+  max-width: 287px;
+  height: 400px;
+}
+
+@media (max-width: 600px) {
+  .container img {
+    max-width: 187px;
+    max-height: 250px;
+  }
+}
